@@ -14,6 +14,7 @@ except ImportError as e:
 else:
     opt_import_error = None
 
+from africanus.compatibility import reduce
 from africanus.util.requirements import requires_optional
 
 # Map Measurement Set string types to numpy types
